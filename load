@@ -18,4 +18,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub
 
 end)
 
+Tab1Section:NewButton("Supported games", "Copies the list.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "HEY!";
+                Text = "Copied to clipboard.";
+                Duration = 0.5;})
+setclipboard("https://github.com/0exo/Titan-X-Gui")
+
+end)
 
