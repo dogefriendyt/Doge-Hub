@@ -1,0 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Notification",
+Text = "Are you sure you want to close the GUI?", 
+
+Button1 = "Yes",
+Button2 = "No",
+Duration = 5 
+})
