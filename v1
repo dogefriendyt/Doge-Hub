@@ -1,6 +1,6 @@
 local Games = {
-   [137885680] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
-   [4301323950] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
+   [137885680] = "https://raw.githubusercontent.com/dogefriendyt/gui/main/DogeGUI",
+   [4301323950] = "https://raw.githubusercontent.com/dogefriendyt/gui/main/DogeGUI",
   [1240123653] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/zombieattackvoidz",
    [3101667897] = "https://raw.githubusercontent.com/0exo/dump/main/legendspeed",
    [286090429] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
