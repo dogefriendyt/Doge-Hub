@@ -1,1 +1,1 @@
-# Doge-Hub
+# Doge Hub Beta
