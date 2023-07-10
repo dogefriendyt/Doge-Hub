@@ -1,0 +1,23 @@
+local Games = {
+   [137885680] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
+   [4301323950] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
+  [1240123653] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/zombieattackvoidz",
+   [3101667897] = "https://raw.githubusercontent.com/0exo/dump/main/legendspeed",
+   [286090429] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
+   [2753915549] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/bloxfruits",
+   [3527629287] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/bigpaintball",
+  [1224212277] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/madcity",
+   [4003872968] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/giantsurvival",
+   [6284583030] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/psx",
+   [11448052802] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/petrift",
+   [8908228901] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/sb2",
+   [142823291] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/mm2",
+   [3398014311] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/rt2",
+   [4490140733] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/myrestaurant",
+}
+
+if Games[game.PlaceId] then
+    loadstring(game:HttpGet(Games[game.PlaceId]))()
+else
+  game.Players.LocalPlayer:Kick("You've been warned for exploiting.")
+end
