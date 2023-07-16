@@ -6,6 +6,3 @@ Heres a simple GUI for all of you to enjoy!
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/load", true))()
 ```
-```
-Penis
-```
