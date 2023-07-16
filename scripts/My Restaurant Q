@@ -1,5 +1,5 @@
 local scripts = {
-    ["Script 1"] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/rt2";
+    ["Script 1"] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/My%20Restaurant";
     ["Script 2"] = "https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua";
 }
 local bindableFunction = Instance.new("BindableFunction")
