@@ -2,7 +2,7 @@
 
 Heres a simple GUI for all of you to enjoy!
 
-Add me on <a href="https://discord.com/app">Discord</a>.
+Add me on <a href="https://discord.com/app">Discord</a>. (Copy username below)
 ```
 doge_friend
 ```
