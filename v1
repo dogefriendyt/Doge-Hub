@@ -1,8 +1,8 @@
 local Games = {
-   [137885680] = "https://raw.githubusercontent.com/dogefriendyt/gui/main/DogeGUI",
-   [4301323950] = "https://raw.githubusercontent.com/dogefriendyt/gui/main/DogeGUI",
-  [1240123653] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/zombieattackvoidz",
-   [3101667897] = "https://raw.githubusercontent.com/0exo/dump/main/legendspeed",
+   [137885680] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Rush",
+   [4301323950] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Rush",
+  [1240123653] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Attack",
+   [3101667897] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Legends%20Of%20Speed",
    [286090429] = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",
    [2753915549] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/bloxfruits",
    [3527629287] = "https://raw.githubusercontent.com/dogefriendyt/dump/main/bigpaintball",
