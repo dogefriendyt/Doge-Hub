@@ -2,7 +2,7 @@
 
 Heres a simple GUI for all of you to enjoy!
 
-# Credentials
+# Information
 
 Add me on <a href="https://discord.com/app">Discord</a>. (Copy username below)
 ```
