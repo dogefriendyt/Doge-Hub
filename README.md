@@ -16,8 +16,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub
 
 # Credits
 
+Github repository owner
 ```
-Made by: dogefriendyt
+dogefriendyt
 ```
 Add me on <a href="https://discord.com/app">Discord</a>. (Copy username below)
 ```
