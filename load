@@ -1,0 +1,34 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Welcome!";
+                Text = "Enjoy using Doge Hub";
+                Duration = 1.5;})
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
+local Window = Library.CreateLib("Doge Hub", "DarkTheme") 
+
+
+local Tab1 = Window:NewTab("Main")
+local Tab2 = Window:NewTab("Autofarms")
+local Tab2 = Window:NewTab("Extra")
+local Tab1Section = Tab1:NewSection("Loader")
+local Tab2Section = Tab1:NewSection("Extra Scripts")
+
+Tab1Section:NewButton("Load V1", "Loads the hub.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Loaded!";
+                Duration = 0.5;})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/version/v1", true))()
+
+end)
+
+Tab1Section:NewButton("Supported games", "Copies the list.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Copied to clipboard.";
+                Duration = 0.5;})
+setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/list")
+
+end)
+
