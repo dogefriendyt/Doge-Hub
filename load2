@@ -65,3 +65,77 @@ Tab:AddButton({
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "FE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Gui")
+
+Tab:AddButton({
+	Name = "Mr. Bullfrog",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Chatdraw"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fling",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/flinggui"))();
+  	end    
+})
+
+Tab:AddLabel("Fun")
+
+Tab:AddButton({
+	Name = "Walk on walls",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Walkwalls"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Banhammer",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Banhammer"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Chat Draw",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Chatdraw"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Mouse Fling",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/mousefling"))();
+  	end    
+})
+
+Tab:AddLabel("Tools")
+
+Tab:AddButton({
+	Name = "Free Cam",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/freecam"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Gamepass Giver",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/gamepassgiver"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Invisibility Tool",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Invisibility"))();
+  	end    
+})
