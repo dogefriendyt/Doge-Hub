@@ -1,0 +1,4 @@
+-- Shift + P to Free Camera Mode
+-- Scroll to Zoom (For some reason doesnt work)
+-- Shift to Slow Down
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxSkriptr/RBLXSkriptr/main/Free%20Camera.lua", true))()
