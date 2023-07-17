@@ -139,3 +139,10 @@ Tab:AddButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Invisibility"))();
   	end    
 })
+
+Tab:AddButton({
+	Name = "Speed Control",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Speedcontrol"))();
+  	end    
+})
