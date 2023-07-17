@@ -1,32 +1,30 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Welcome!";
-                Text = "Enjoy using Doge Hub";
-                Duration = 1.5;})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Script hub (20 games)", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Welcome to Doge Hub!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
-local Window = Library.CreateLib("Doge Hub", "DarkTheme") 
+local Tab = Window:MakeTab({
+	Name = "Welcome",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
+Tab:AddParagraph("How to use Doge Hub:","Go to the loader section and click load.")
 
-local Tab1 = Window:NewTab("Main")
-local Tab1Section = Tab1:NewSection("Loader")
+local Tab = Window:MakeTab({
+	Name = "Loader",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-Tab1Section:NewButton("Load V1", "Loads the hub.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Loaded!";
-                Duration = 0.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/version/v1", true))()
-
-end)
-
-Tab1Section:NewButton("Supported games", "Copies the list.", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Copied to clipboard.";
-                Duration = 0.5;})
-setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/list")
-
-end)
-
-
+Tab:AddButton({
+	Name = "Build a Boat Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/TVfB0PBy"))();
+  	end    
+})
