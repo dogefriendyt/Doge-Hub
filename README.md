@@ -1,6 +1,6 @@
 # Doge Hub V1
 
-Heres a simple GUI for all of you to enjoy!
+Heres a simple GUI with many scripts for you all!
 
 # Information
 
@@ -12,4 +12,12 @@ doge_friend
 
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/load", true))()
+```
+
+# Extra/Credits
+
+```
+Made by: dogefriendyt
+
+Supports 50+ games that you most likely play!
 ```
