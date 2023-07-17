@@ -1,4 +1,4 @@
-# Doge Hub V1 **(50+ Games)**
+# Doge Hub **(50+ Games)**
 
 Heres a simple GUI with many scripts for you all!
 
