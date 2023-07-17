@@ -9,7 +9,7 @@ OrionLib:MakeNotification({
 })
 
 local Tab = Window:MakeTab({
-	Name = "Games",
+	Name = "Info",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -17,10 +17,17 @@ local Tab = Window:MakeTab({
 Tab:AddLabel("You must claim a booth before using any of the following scripts.")
 
 
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
 Tab:AddButton({
 	Name = "Ping Pong",
 	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/TVfB0PBy"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Rate/main/pingpong"))();
   	end    
 })
 
@@ -28,7 +35,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Screen Share",
 	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/TVfB0PBy"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Rate/main/screenshare"))();
   	end   
 })
 
@@ -36,6 +43,490 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "MS Paint",
 	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/dogefriendyt/Rate/main/paint'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Trivia",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/dogefriendyt/Rate/main/trivia'),true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Booth Images",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Resetting booth makes you rejoin the game.")
+
+Tab:AddButton({
+	Name = "Reset booth",
+	Callback = function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
   	end    
+})
+
+Tab:AddLabel("Animated Icons")
+
+Tab:AddButton({
+	Name = "Yipee!",
+	Callback = function()
+
+		  yipeeCond = true
+       while yipeeCond==true do
+		local yipeeTab = {
+			"9834224327",
+			"9834224367",
+			"9834224378",
+			"9834224390",
+			"9834224358",
+			"9834224395",
+			"9834224420",
+			"9834224394",
+			"9834224333",
+			"9834224348",
+			"9834224386",
+			"9834224368",
+			"9834224407",
+
+		}
+		for _,v in pairs(yipeeTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="YIPEEE",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if yipeeCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end 
+})
+
+Tab:AddButton({
+	Name = "Happy Cat",
+	Callback = function()
+
+		   happyCatCond = true
+	wait(0.1)
+	while happyCatCond==true do
+		local happyCatTab = {
+			"9835002079",
+			"9835002136",
+			"9835002131",
+			"9835002084",
+			"9835002080",
+			"9835002086",
+			"9835002078",
+			"9835002086",
+			"9835002115",
+			"9835002120",
+			"9835002096",
+			"9835002129",
+			"9835002100",
+			"9835002112",
+			"9835002098",
+
+		}
+		for _,v in pairs(happyCatTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]=":D",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if happyCatCond==false then
+				break
+			end
+			wait(.1)
+
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Spinning Rat",
+	Callback = function()
+
+		   spinningRatCond = true
+	wait(0.2)
+	while spinningRatCond==true do
+		local spinningRatTab = {
+			"9835143999",
+			"9835144007",
+			"9835144021",
+			"9835144008",
+			"9835144032",
+			"9835144027",
+			"9835144015",
+			"9835144038",
+			"9835144026",
+			"9835144019",
+			"9835144033",
+			"9835144035",
+			"9835144036",
+			"9835144031",
+			"9835144061",
+			"9835144037",
+
+		}
+		for _,v in pairs(spinningRatTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="RAT",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if spinningRatCond==false then
+				break
+			end
+			wait(.1)
+
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Capybara Car",
+	Callback = function()
+
+		   capybaraCarCond = true
+	wait(0.2)
+	while capybaraCarCond==true do
+		local capybaraCarTab = {
+			"9835192311",
+			"9835192318",
+			"9835192328",
+			"9835192332",
+			"9835192342",
+			"9835192343",
+			"9835192356",
+			"9835192354",
+			"9835192340",
+			"9835192409",
+			"9835192407",
+
+		}
+		for _,v in pairs(capybaraCarTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="okay i pull up",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if capybaraCarCond==false then
+				break
+			end
+			wait(.1)
+
+		end
+
+	end
+})
+
+Tab:AddButton({
+	Name = "Exploding Skull",
+	Callback = function()
+
+		   skullExplodeCond = true
+	wait(0.2)
+	while skullExplodeCond==true do
+		local skullExplodeTab = {
+			"9835255720",
+            "9835255646",
+            "9835255659",
+            "9835255657",
+            "9835255675",
+            "9835255686",
+            "9835255688",
+            "9835255685",
+            "9835255683",
+		}
+		for _,v in pairs(skullExplodeTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="bruh nawhhhh nah bruhhh nah no way bruhhh fr? Bruhhh",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if skullExplodeCond==false then
+				break
+			end
+			wait(.1)
+		end
+
+	end
+})
+
+Tab:AddButton({
+	Name = "Imploading Skull",
+	Callback = function()
+
+		   skullImploadCond = true
+	wait(0.2)
+	while skullImploadCond==true do
+		local skullImploadTab = {
+			"9835255683",
+			"9835255685",
+			"9835255688",
+			"9835255686",
+			"9835255675",
+			"9835255657",
+			"9835255659",
+			"9835255646",
+			"9835255720",
+		}
+		for _,v in pairs(skullImploadTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="ah ok now I understand now",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if skullImploadCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "R.I.P. Cat",
+	Callback = function()
+
+		   ripCatCond = true
+	wait(0.2)
+	while ripCatCond==true do
+		local ripCatTab = {
+			"9835316720",
+			"9835316733",
+			"9835316781",
+			"9835316773",
+			"9835316740",
+			"9835316736",
+			"9835316743",
+			"9835316749",
+			"9835316754",
+			"9835316761",
+			"9835316780",
+			"9835316785",
+			"9835316787",
+			"9835316775",
+		}
+		for _,v in pairs(ripCatTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="D:",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if ripCatCond==false then
+				break
+			end
+			wait(.1)	
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Water Cat",
+	Callback = function()
+
+		   waterCatCond = true
+	wait(0.2)
+	while waterCatCond==true do
+		local waterCatTab = {
+			"9835462423",
+			"9835462430",
+			"9835462441",
+			"9835462438",
+			"9835462440",
+			"9835462448",
+			"9835462445",
+			"9835462435",
+		}
+		for _,v in pairs(waterCatTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="( ´・ω・).",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if waterCatCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Dancing Pug",
+	Callback = function()
+
+		   pugCond = true
+	wait(0.2)
+	while pugCond==true do
+		local pugTab = {
+			"9837094480",
+			"9837094488",
+			"9837094535",
+			"9837094521",
+			"9837094517",
+			"9837094510",
+			"9837094538",
+			"9837094557",
+			"9837094537",
+			"9837094522",
+			"9837094520",
+			"9837094514",
+			"9837094506",
+			"9837094513",
+			"9837094530",
+			"9837094534",
+			"9837094518",
+			"9837094527",
+			"9837094528",
+			"9837094524",
+			"9837094550",
+			"9837094516",
+			"9837094525",
+		}
+		for _,v in pairs(pugTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="💃🕺",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if pugCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Spongebob Fish",
+	Callback = function()
+
+		   spoCond = true
+	wait(0.2)
+	while spoCond==true do
+		local spoTab = {
+			"9837094480",
+			"9837094488",
+			"9837094535",
+			"9837094521",
+			"9837094517",
+			"9837094510",
+			"9837094538",
+			"9837094557",
+			"9837094537",
+			"9837094522",
+			"9837094520",
+			"9837094514",
+			"9837094506",
+			"9837094513",
+			"9837094530",
+			"9837094534",
+			"9837094518",
+			"9837094527",
+			"9837094528",
+			"9837094524",
+			"9837094550",
+			"9837094516",
+			"9837094525",
+		}
+		for _,v in pairs(spoTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="🐟",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if spoCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Monke Circle",
+	Callback = function()
+
+		   monkeCond = true
+	wait(0.2)
+	while monkeCond==true do
+		local monkeTab = {
+			"9888794477",
+			"9888788087",
+			"9888787850",
+			"9888787557",
+			"9888787334",
+			"9888787028",
+			"9888786790",
+			"9888786611",
+			"9888786410",
+		}
+		for _,v in pairs(monkeTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="Monke Spin",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if monkeCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "The Rock Eyebrow Raise",
+	Callback = function()
+
+		   rockCond = true
+	wait(0.2)
+	while rockCond==true do
+		local rockTab = {
+			"9888770515",
+			"9888770296",
+			"9888769916",
+			"9888769634",
+			"9888769284",
+			"9888769008",
+			"9888768794",
+			"9888768523",
+			"9888763095",
+			"9888762892",
+			"9888762699",
+			"9888762367",
+			"9888762114",
+			"9888761941",
+			"9888761689",
+			"9888761246",
+		}
+		for _,v in pairs(rockTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="...",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if rockCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+Tab:AddButton({
+	Name = "Skeleton Running",
+	Callback = function()
+
+		   skeCond = true
+	wait(0.2)
+	while skeCond==true do
+		local skeTab = {
+			"9888761068",
+			"9888760854",
+			"9888754640",
+			"9888754491",
+			"9888754373",
+			"9888754246",
+			"9888754109",
+			"9888753970",
+			"9888753820",
+		}
+		for _,v in pairs(skeTab) do
+			local k={[1]="Update",[2]={["DescriptionText"]="...",["ImageId"]=v}}
+			game:GetService("ReplicatedStorage").CustomiseBooth:FireServer(unpack(k))
+			if skeCond==false then
+				break
+			end
+			wait(.1)
+		end
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Shop",
+	Callback = function()
+		local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-62, 3, 55)
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	task.wait()
+	pl.CFrame = location
+end)   
 })
