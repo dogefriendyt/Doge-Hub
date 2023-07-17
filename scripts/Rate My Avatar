@@ -530,3 +530,47 @@ Tab:AddButton({
 	pl.CFrame = location
 end)   
 })
+
+Tab:AddButton({
+	Name = "Spawn",
+	Callback = function()
+		local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-8, 3, 6)
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	task.wait()
+	pl.CFrame = location
+end)   
+})
+
+Tab:AddButton({
+	Name = "Stage",
+	Callback = function()
+		local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-86, 7, 6)
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	task.wait()
+	pl.CFrame = location
+end)   
+})
+
+Tab:AddButton({
+	Name = "Top Rated Sign",
+	Callback = function()
+		local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-71, 19, -40)
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	task.wait()
+	pl.CFrame = location
+end)   
+})
+
+Tab:AddButton({
+	Name = "Premium Lounge",
+	Callback = function()
+		local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+	local location = CFrame.new(-5900, -54, 23)
+	local humanoid = game.Players.LocalPlayer.Character.Humanoid
+	task.wait()
+	pl.CFrame = location
+end) 
+})
