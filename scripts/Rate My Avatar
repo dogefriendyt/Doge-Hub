@@ -1,6 +1,6 @@
 -- Rate My Avatar GUI - 2022 (COPY THE SCRIPT!)
 
--- JOIN THE DISCORD! - https://discord.gg/3GJECGdCWY 
+-- JOIN THE DISCORD if you want lmao! - https://discord.gg/3GJECGdCWY 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Rate my Avatar GUI | cryniz, noxu | use this gui if u like oily men", "Ocean")
