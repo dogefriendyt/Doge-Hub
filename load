@@ -16,7 +16,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Loaded!";
                 Duration = 0.5;})
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/version/v1", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/version/v1", true))()
 
 end)
 
