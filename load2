@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Script hub (20 games)", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "Doge Hub", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Notification",
@@ -30,8 +30,38 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Load V1",
+	Name = "Supported Games List",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/version/v1"))();
+		setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/list")
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Autofarms",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Instructions","Click on whatever autofarm script, paste it in your browser, put it in your autoexecute folder for your executor, then you're done.")
+
+Tab:AddButton({
+	Name = "Anime Fighting Simulator",
+	Callback = function()
+		setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/autofarm/Anime%20Fighting%20Simulator")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blox Fruits",
+	Callback = function()
+		setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/autofarm/Blox%20Fruits")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Dungeon Quest",
+	Callback = function()
+		setclipboard("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/autofarm/Dungeon%20Quest")
+  	end    
+})
+
