@@ -21,6 +21,9 @@ local Games = {
 [8737602449] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Pls%20Donate",
 [537413528] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Build%20A%20Boat%20For%20Treasure",
 [370731277] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Meep%20City",
+[8916037983] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Starving%20Artists",
+[12355337193] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Murders%20Vs%20Sheriffs%20Duels",
+[6447798030] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Friday%20Night%20Funkin",
 }
 
 if Games[game.PlaceId] then
