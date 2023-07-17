@@ -13,7 +13,7 @@ _G.Key = "dogesrock"
 _G.KeyInput = "String"
 
 function MakeScriptHub()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/carpetssss/Scripts-1/main/Gui"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/version/v1"))();
 end
 
 function CorrectKeyNotification()
