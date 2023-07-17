@@ -1,0 +1,187 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Script hub (20 games)", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+
+OrionLib:MakeNotification({
+	Name = "Successfully executed",
+	Content = "Successfully executed",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab = Window:MakeTab({
+	Name = "games",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Build a Boat Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/TVfB0PBy"))();
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "BIG Paintball Script",
+	Callback = function()
+		local httpget=request or http_request or(http and http.request)or(syn and syn.request)
+loadstring(httpget({Url="https://raw.githubusercontent.com/AndrewDarkyy/NOWAY/main/darkyyware.lua",Method="GET"}).Body)()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Prison Life Script",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Bee Swarm Simulator Script",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Clone Kingdom Tycoon Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ephide/yo/main/clonekingdomtycoon", true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "King legacy script",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Flag Wars Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/7QE04uXz"))();
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "BloxFruits Scripts ",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Roblox Shadow Boxing Battles Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/ShadowBoxing"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Fishing Frenzy Simulator Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Xyl3ntHacks/Killa-s-Scripts/main/Fishing%20Frenzy", true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Pixel Piece Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "MOTORCYCLE MAYHEM Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Motorcycle%20Mayhem"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Yeet a Friend Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0yeet", true))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Rainbow Friends Script",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/spookysss/RainbowFriends/main/script%20(2).lua')))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SWORD WARRIORS Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0swordwarrior"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SHINOBI LIFE 2 Script ",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DEMONFALL Script ",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/NOOBHUBX/DemonFall/main/NOOB%20HUB.Lua'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ANIME RISING FIGHTING Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "SURVIVE THE KILLER Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/SonicHub"))()
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "CLICKER SIMULATOR Script ",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))()
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Universal Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
