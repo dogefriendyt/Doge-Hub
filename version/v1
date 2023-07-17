@@ -1,0 +1,28 @@
+local Games = {
+   [137885680] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Rush",
+   [4301323950] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Rush",
+  [1240123653] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Zombie%20Attack",
+   [3101667897] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Legends%20Of%20Speed",
+[621129760] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/KAT",
+   [286090429] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Arsenal",
+   [2753915549] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Blox%20Fruits",
+   [3527629287] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Big%20Paintball",
+  [1224212277] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Mad%20City",
+   [6284583030] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Pet%20Simulator%20X",
+   [11448052802] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Pet%20Rift",
+   [8908228901] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Shark%20Bite%202",
+   [142823291] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Murder%20Mystery%202",
+   [3398014311] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Restaurant%20Tycoon%202",
+   [4490140733] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/My%20Restaurant",
+[6403373529] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Slap%20Battles",
+[13127800756] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Arm%20Wrestling%20Simulator",
+[2472820296] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Ultimate%20Lifting%20Simulator",
+[662417684] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Lucky%20Blocks%20Battlegrounds",
+[8737602449] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Pls%20Donate",
+}
+
+if Games[game.PlaceId] then
+    loadstring(game:HttpGet(Games[game.PlaceId]))()
+else
+  game.Players.LocalPlayer:Kick("You've been warned for exploiting.")
+end
