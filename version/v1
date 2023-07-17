@@ -51,6 +51,7 @@ local Games = {
 [3233893879] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Bad%20Business",
 [185655149] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Bloxburg",
 [7991339063] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Rainbow%20Friends",
+[4806026225] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Defenders%20Depot",
 }
 
 if Games[game.PlaceId] then
