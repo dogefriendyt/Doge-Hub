@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+loadstring(game:HttpGet("https://system-exodus.com/scripts/Islands/Islands.lua", true))()
