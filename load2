@@ -146,3 +146,10 @@ Tab:AddButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Speedcontrol"))();
   	end    
 })
+
+Tab:AddButton({
+	Name = "Teleport",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/teleport"))();
+  	end    
+})
