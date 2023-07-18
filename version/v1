@@ -62,8 +62,9 @@ local Games = {
 [4522347649] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Free%20Admin",
 [205224386] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Hide%20And%20Seek%20Extreme",
 [5985232436] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Infectious%20Smile",
-[7253974745] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Foam%20Frenzy",
+[6507422231] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Twighlight%20Daycare",
 [11708967881] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Yeet%20A%20Friend",
+[1962086868] = "https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/scripts/Tower%20Of%20Hell",
 }
 
 if Games[game.PlaceId] then
