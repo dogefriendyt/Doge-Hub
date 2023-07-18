@@ -71,6 +71,35 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+Tab:AddLabel("Speed and Jump")
+
+Tab:AddSlider({
+	Name = "Walkspeed",
+	Min = 0,
+	Max = 100,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Speed",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end    
+})
+
+Tab:AddSlider({
+	Name = "Jump Power",
+	Min = 0,
+	Max = 150,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Power",
+	Callback = function(x)
+		 game.Players.LocalPlayer.Character.Humanoid.JumpPower = x
+	end    
+})
+
+
 Tab:AddLabel("Gui")
 
 Tab:AddButton({
@@ -119,6 +148,7 @@ Tab:AddButton({
 
 Tab:AddLabel("Tools")
 
+
 Tab:AddButton({
 	Name = "Free Cam",
 	Callback = function()
@@ -141,15 +171,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Speed Control",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/Speedcontrol"))();
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Teleport",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/fe/teleport"))();
   	end    
 })
+
