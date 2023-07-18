@@ -2,6 +2,8 @@
 
 Heres a simple GUI with many scripts for you all! Enjoy it while its keyless
 
+**Reminder** - Some scripts do have a key, but majority of them don't.
+
 # Information
 
 Add me on <a href="https://discord.com/app">Discord</a>. (Copy username below)
