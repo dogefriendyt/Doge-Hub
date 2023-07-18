@@ -65,5 +65,5 @@ local Games = {
 if Games[game.PlaceId] then
     loadstring(game:HttpGet(Games[game.PlaceId]))()
 else
-  game.Players.LocalPlayer:Kick("You've been warned for exploiting.")
+  game.Players.LocalPlayer:Kick("Unsupported game!")
 end
