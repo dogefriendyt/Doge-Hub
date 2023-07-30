@@ -4,7 +4,7 @@ Heres a simple GUI with many scripts for you all! Enjoy it while its keyless
 
 **Reminder** - Some scripts do have a key, but majority of them don't.
 
-***We are Open-Source!***
+***This script is indeed Open-Source!***
 
 # Information
 
