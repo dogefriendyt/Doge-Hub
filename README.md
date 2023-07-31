@@ -6,12 +6,6 @@ Heres a simple GUI with many scripts for you all! Enjoy it while its keyless
 
 ***This script is indeed Open-Source!***
 
-# Information
-
-Add me on <a href="https://discord.com/app">Discord</a>. (Copy username below)
-```
-doge_friend
-```
 # Script
 
 ```
