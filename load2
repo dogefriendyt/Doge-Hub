@@ -63,6 +63,19 @@ Tab:AddSlider({
 	end    
 })
 
+Tab:AddSlider({
+	Name = "Hip Height",
+	Min = 0,
+	Max = 100,
+	Default = 0,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Height",
+	Callback = function(c)
+		 game:GetService("Players").LocalPlayer.Character.Humanoid.HipHeight = c
+	end    
+})
+
 
 local Tab = Window:MakeTab({
 	Name = "Autofarms",
