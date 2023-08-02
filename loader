@@ -3,13 +3,13 @@ local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Doge Hub", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
 OrionLib:MakeNotification({
-	Name = "Logged In",
+	Name = "Notification",
 	Content = "You are Logged in as"..Player.Name.." .",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 
-_G.Key = "dogesrock"
+_G.Key = "dogehubpremium"
 _G.KeyInput = "String"
 
 function MakeScriptHub()
@@ -18,19 +18,19 @@ end
 
 function CorrectKeyNotification()
     OrionLib:MakeNotification({
-        Name = "Correct Key",
-        Content = "You have entered the Correct Key",
+        Name = "Notification",
+        Content = "Correct key, enjoy Doge Hub!",
         Image = "rbxassetid://4483345998",
-        Time = 5
+        Time = 2
     })
 end
 
 function InCorrectKeyNotification()
     OrionLib:MakeNotification({
-        Name = "InCorrect Key",
-        Content = "You have entered the InCorrect Key",
+        Name = "Notification",
+        Content = "Incorrect key, try a different one.",
         Image = "rbxassetid://4483345998",
-        Time = 5
+        Time = 2
     })
 end
 
@@ -42,7 +42,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddTextbox({
-	Name = "Enter Key",
+	Name = "Type key here...",
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
@@ -51,7 +51,7 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-	Name = "Check Key",
+	Name = "Confirm",
 	Callback = function()
       	if _G.KeyInput == _G.Key then
         MakeScriptHub()
@@ -65,5 +65,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Get key",
 	Callback = function()
+
   	end    
 })
