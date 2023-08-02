@@ -9,7 +9,6 @@ local Window = Library.CreateLib("Doge Hub", "DarkTheme")
 
 
 local Tab1 = Window:NewTab("Main")
-local Tab2 = Window:NewTab("Autofarms")
 local Tab2 = Window:NewTab("Extra")
 local Tab1Section = Tab1:NewSection("Loader")
 local Tab2Section = Tab1:NewSection("Extra Scripts")
