@@ -14,8 +14,8 @@ local Tab1Section = Tab1:NewSection("Scripts")
 
 Tab1Section:NewButton("Bring All (Laggy af)", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Notification";
-                Text = "Copied to clipboard.";
+                Title = " ";
+                Text = " ";
                 Duration = 0.5;})
 local rs = game:GetService("RunService");
 local lp = game.Players.LocalPlayer.Character;
@@ -45,3 +45,25 @@ Thing:GetAttributeChangedSignal("AmmoAdded"):Connect(function() SetStats("AmmoAd
 SetStats("AmmoAdded",1)
 
 end)
+
+Tab1Section:NewButton("Walkspeed 50", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+
+end)
+
+Tab1Section:NewButton("Walkspeed 100", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+end)
+
+
