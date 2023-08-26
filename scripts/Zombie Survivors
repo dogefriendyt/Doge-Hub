@@ -11,7 +11,7 @@ local Window = Library.CreateLib("Doge Hub - Zombie Survivors", "DarkTheme")
 local Tab1 = Window:NewTab("Main")
 local Tab1Section = Tab1:NewSection("Scripts")
 
-Tab1Section:NewButton("Gun Mod", "", function()
+Tab1Section:NewButton("No Firerate (Must equip gun)", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Loaded!";
@@ -22,15 +22,12 @@ local Thing = lp:FindFirstChildOfClass("Tool")
 local function SetStats(StateName,Value)
    Thing:SetAttribute(StateName, Value)
 end
-Thing:GetAttributeChangedSignal("Ammo"):Connect(function() SetStats("Ammo",math.huge) end)
-Thing:GetAttributeChangedSignal("AmmoAdded"):Connect(function() SetStats("AmmoAdded",math.huge) end)
 Thing:GetAttributeChangedSignal("Cooldown"):Connect(function() SetStats("Cooldown", 0) end)
 Thing:GetAttributeChangedSignal("TimesFired"):Connect(function() SetStats("TimesFired", 0) end)
-SetStats("AmmoAdded",1)
 
 end)
 
-Tab1Section:NewButton("Bring All", "", function()
+Tab1Section:NewButton("Bring All (Laggy af)", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = "Notification";
                 Text = "Copied to clipboard.";
@@ -44,5 +41,22 @@ rs.Heartbeat:connect(function()
         end;
     end;
 end);
+
+end)
+
+Tab1Section:NewButton("Infinity Ammo (Must equip gun)", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+local lp = game.Players.LocalPlayer.Character
+
+local Thing = lp:FindFirstChildOfClass("Tool")
+local function SetStats(StateName,Value)
+   Thing:SetAttribute(StateName, Value)
+end
+Thing:GetAttributeChangedSignal("Ammo"):Connect(function() SetStats("Ammo",math.huge) end)
+Thing:GetAttributeChangedSignal("AmmoAdded"):Connect(function() SetStats("AmmoAdded",math.huge) end)
+SetStats("AmmoAdded",1)
 
 end)
