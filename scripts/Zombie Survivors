@@ -29,7 +29,7 @@ end);
 
 end)
 
-Tab1Section:NewButton("Infinite Ammo", "", function()
+Tab1Section:NewButton("Infinite Ammo (Reactivate Often)", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = " ";
                 Text = " ";
