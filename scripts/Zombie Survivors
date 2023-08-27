@@ -42,7 +42,7 @@ local function SetStats(StateName,Value)
 end
 Thing:GetAttributeChangedSignal("Ammo"):Connect(function() SetStats("Ammo",math.huge) end)
 Thing:GetAttributeChangedSignal("AmmoAdded"):Connect(function() SetStats("AmmoAdded",math.huge) end)
-SetStats("AmmoAdded",1)
+SetStats("AmmoAdded",111111111111111)
 
 end)
 
