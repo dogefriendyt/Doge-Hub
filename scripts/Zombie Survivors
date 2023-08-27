@@ -45,6 +45,22 @@ SetStats("AmmoAdded",99999999999999)
 
 end)
 
+Tab1Section:NewButton("Restore Ammo", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+local lp = game.Players.LocalPlayer.Character
+
+local Thing = lp:FindFirstChildOfClass("Tool")
+local function SetStats(StateName,Value)
+   Thing:SetAttribute(StateName, Value)
+end
+
+SetStats("AmmoAdded",2500)
+
+end)
+
 Tab1Section:NewButton("Walkspeed 50", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
                 Title = " ";
@@ -65,15 +81,6 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
 end)
 
-Tab1Section:NewButton("Jump Power 50", "", function()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = " ";
-                Text = " ";
-                Duration = 0.5;})
-
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-
-end)
 
 Tab1Section:NewButton("Noclip", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
