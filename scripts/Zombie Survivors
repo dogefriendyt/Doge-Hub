@@ -40,9 +40,8 @@ local Thing = lp:FindFirstChildOfClass("Tool")
 local function SetStats(StateName,Value)
    Thing:SetAttribute(StateName, Value)
 end
-Thing:GetAttributeChangedSignal("Ammo"):Connect(function() SetStats("Ammo",math.huge) end)
-Thing:GetAttributeChangedSignal("AmmoAdded"):Connect(function() SetStats("AmmoAdded",math.huge) end)
-SetStats("AmmoAdded",111111111111111)
+
+SetStats("AmmoAdded",99999999999999)
 
 end)
 
@@ -66,4 +65,79 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
 end)
 
+Tab1Section:NewButton("Jump Power 50", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+
+end)
+
+Tab1Section:NewButton("Noclip", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+local Noclip = nil
+local Clip = nil
+
+function noclip()
+	Clip = false
+	local function Nocl()
+		if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+					v.CanCollide = false
+				end
+			end
+		end
+		wait(0.21) -- basic optimization
+	end
+	Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+end
+
+function clip()
+	if Noclip then Noclip:Disconnect() end
+	Clip = true
+end
+
+noclip() -- to toggle noclip() and clip()
+
+end)
+
+Tab1Section:NewButton("Clip", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+local Noclip = nil
+local Clip = nil
+
+function noclip()
+	Clip = false
+	local function Nocl()
+		if Clip == false and game.Players.LocalPlayer.Character ~= nil then
+			for _,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+				if v:IsA('BasePart') and v.CanCollide and v.Name ~= floatName then
+					v.CanCollide = false
+				end
+			end
+		end
+		wait(0.21) -- basic optimization
+	end
+	Noclip = game:GetService('RunService').Stepped:Connect(Nocl)
+end
+
+function clip()
+	if Noclip then Noclip:Disconnect() end
+	Clip = true
+end
+
+clip() -- to toggle noclip() and clip()
+
+end)
 
