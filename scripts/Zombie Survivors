@@ -81,6 +81,16 @@ game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
 end)
 
+Tab1Section:NewButton("Never die", "", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = " ";
+                Text = " ";
+                Duration = 0.5;})
+
+game:GetService("Players").LocalPlayer.Character.Humanoid.HipHeight = 5
+
+end)
+
 
 Tab1Section:NewButton("Noclip", "", function()
 game:GetService("StarterGui"):SetCore("SendNotification",{
