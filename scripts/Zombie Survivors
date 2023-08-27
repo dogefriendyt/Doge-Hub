@@ -41,7 +41,7 @@ local function SetStats(StateName,Value)
    Thing:SetAttribute(StateName, Value)
 end
 
-SetStats("AmmoAdded",99999999999999)
+SetStats("AmmoAdded",1)
 
 end)
 
