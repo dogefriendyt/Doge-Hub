@@ -9,7 +9,7 @@ Heres a simple GUI with many scripts for you all! Enjoy it while its keyless
 # Script
 
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/load", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/Doge-Hub/main/load2", true))()
 ```
 
 # Credits
