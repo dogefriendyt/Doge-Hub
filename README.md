@@ -1,4 +1,4 @@
-# Doge Hub **(50+ Games)**
+# Doge Hub **(70+ Games)**
 
 Heres a simple GUI with many scripts for you all! Enjoy it while its keyless
 
